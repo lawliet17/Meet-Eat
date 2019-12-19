@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.meat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:5:5-35:19
+12        android:allowBackup="true"
+12-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Rino Ramadhan\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity android:name="com.example.meat.DetailHistoryActivity" />
+19-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:12:9-68
+19-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:12:19-56
+20        <activity android:name="com.example.meat.EatActivity" />
+20-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:13:9-49
+20-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:13:19-46
+21        <activity android:name="com.example.meat.VerifikasiActivity" />
+21-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:14:9-56
+21-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:14:19-53
+22        <activity android:name="com.example.meat.Splasher" >
+22-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:15:9-21:20
+22-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:15:19-43
+23            <intent-filter>
+23-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:16:13-20:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:17:17-69
+24-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:17:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:19:17-77
+26-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:19:27-74
+27            </intent-filter>
+28        </activity>
+29        <activity android:name="com.example.meat.Register" />
+29-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:22:9-46
+29-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:22:19-43
+30        <activity android:name="com.example.meat.Login" />
+30-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:23:9-43
+30-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:23:19-40
+31        <activity android:name="com.example.meat.PaymentActivity" />
+31-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:24:9-53
+31-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:24:19-50
+32        <activity android:name="com.example.meat.HistoryActivity" />
+32-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:25:9-53
+32-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:25:19-50
+33        <activity android:name="com.example.meat.HostActivity" />
+33-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:26:9-50
+33-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:26:19-47
+34        <activity android:name="com.example.meat.ProfileActivity" />
+34-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:27:9-53
+34-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:27:19-50
+35        <activity android:name="com.example.meat.MainActivity" >
+35-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:28:9-34:20
+35-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:28:19-47
+36            <intent-filter>
+36-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:16:13-20:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:17:17-69
+37-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:17:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:19:17-77
+39-->C:\Users\Rino Ramadhan\AndroidStudioProjects\meat\app\src\main\AndroidManifest.xml:19:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
